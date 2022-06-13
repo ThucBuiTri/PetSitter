@@ -24,11 +24,87 @@
 </head>
 
 <body>
- <div class="container">
+    <div class="header">
+        <div class="container">
+          <div class="row">
+            <div class="header-left">
+              <div class="header-logo">
+                <a href="#">
+                  <img src="./img/Logo-header.png" alt="" />
+                </a>
+              </div>
+              <div class="header-nav">
+                <nav class="navbar d-none d-md-block">
+                  <ul class="nav-content">
+                    <li class="nav-item">
+                      <a href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#">Service</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#">
+                        Shop
+                        <i class="fa-solid fa-angle-down"></i>
+                      </a>
+                      <ul class="submenu">
+                        <li><a href="#">Pet Item</a></li>
+                        <li><a href="#">Pet Shop</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#">
+                        Services
+                        <i class="fa-solid fa-angle-down"></i>
+                      </a>
+                      <ul class="submenu">
+                        <li><a href="index.html">Spa & Grooming</a></li>
+                        <li><a href="petHotel.html">Pet Hotel</a></li>
+                        <li><a href="petGuide.html">Pet Guide</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item"><a href="#">Contact</a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+            <div class="header-right">
+              <div class="search-box">
+                <input
+                  type="text"
+                  id="search-input"
+                  value=""
+                  placeholder="Search..."
+                />
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+  
+              <div class="login-button">
+                <li class="nav-login"><a href="#">Login</a></li>
+                <button class="button-report">REPORT PET</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <section class="lost&found"></section>
+      <section class="home-shop"></section>
+      <section class="home-spa"></section>
+      <section class="home-find-success"></section>
+      <section class="home-contact"></section>
+      <footer class="footer"></footer>
+  
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"
+      ></script>
+ <div class="container-1">
     <div class="flex-order">
         <a type="button" class="button btn btn-block btn-sm btn-warning" href="nail.html">Nail Strimming</a>
         <a type="button" class="button btn btn-block btn-sm btn-warning" href="Hair.html">Hair Strimming</a>
-        <a type="button" class="button btn btn-block btn-sm btn-warning" href="index.html">Pet & Spa</a>
+        <!-- <a type="button" class="button btn btn-block btn-sm btn-warning" href="index.html">Pet & Spa</a> -->
         <a type="button" class="button btn btn-block btn-sm btn-warning" href="wash.html">Wash Strimming</a>
     </div>
 
@@ -261,7 +337,7 @@
         </div>
     </div>
     <div>
-        <img style="height: 200px;" src="img/list-dog.png" alt="">
+        <img style="height: 250px;" src="img/pic-5.png" alt="">
     </div>
 </div>
 </body>
