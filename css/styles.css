@@ -1,3 +1,9 @@
+:root{
+  --font-family: "Roboto", sans-serif;
+}
+
+
+
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -501,6 +507,7 @@ html {
 .petguide-color {
   background: #d49696;
   display: inline-block;
+
 }
 
 .top-right-title {
@@ -512,6 +519,7 @@ html {
 
 .list-wash-dog-catton {
   display: flex;
+  margin-left: 125px;
 }
 
 .list-width {
@@ -536,6 +544,7 @@ html {
 
 .padding-p {
   padding: 30px;
+  font-family: "Roboto", sans-serif;
 }
 
 .row .row-top-left-wash {
@@ -563,27 +572,41 @@ html {
 }
 
 /* ---------------css of nail------------------ */
-.nail .row {
-  display: flex;
-  margin-top: 10%;
-}
 
-.nail .row .row-top-nail {
-  display: flex;
-  flex-direction: row;
+.nail{
+  margin-top: 5%;
 }
-
-.row .row-top-left-nail {
-  width: 50%;
-  margin-top: 150px;
+.img-center{
+  background: #f9f9f9;
+  text-align: center;
 
 }
 
-.row .row-top-right-nail {
-  width: 50%;
+
+.text-center{
+  font-style: italic;
 }
 
-.nail .row .row-bottom-nail {
-  display: flex;
-  flex-direction: row;
+
+
+.list-step {
+  list-style: none;
+}
+
+.list-step-detail {
+  padding: 10px;
+}
+.step-cut-nail{
+  width: 800px;
+}
+.padding-step-nail{
+  padding: 8px;
+}
+/* -------------css of relax pet---------------------- */
+.padding-p-relax{
+  padding-left: 30px;
+}
+
+.text-note-relax{
+  font-weight: 700;
 }
