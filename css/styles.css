@@ -1,3 +1,18 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 1;
+}
+
 /* ---------------------css of header--- */
 body {
   font-family: "Roboto", sans-serif;
@@ -11,12 +26,12 @@ html {
 }
 
 .header {
-  background-color: rgba(32, 44, 57, 0.8);
+  background-color: rgba(123, 211, 82, 0.8);
   position: sticky;
   z-index: 99;
   width: 100%;
   margin: 0;
-  top:0;
+  top: 0;
 }
 
 .header .row {
@@ -210,8 +225,6 @@ html {
   background: transparent;
   border: 1px solid #f7fff7;
 }
-
-
 
 
 /* --------------css of index.---------------------- */
@@ -550,9 +563,9 @@ html {
 
 /* ---------------css of nail------------------ */
 
-.nail {
+/* .nail {
   margin-top: 5%;
-}
+} */
 
 .img-center {
   background: #f9f9f9;
@@ -735,4 +748,267 @@ footer .row-footer .footer-right .footer-item a:hover {
   -webkit-transition: 0.4s;
   transition: 0.4s;
   border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* -------------------css of card right(ads)-- */
+
+.row-nail-pr {
+  display: flex;
+}
+
+
+.row-shop-item {
+  padding: 10%;
+
+}
+
+
+.card {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  border-radius: 10px;
+}
+
+.row-shop-item .card .card-img {
+  overflow: hidden;
+}
+
+.row-shop-item .card .card-img img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.row-shop-item .card .card-img img:hover {
+  -webkit-transform: scale(1.05, 1.05);
+  transform: scale(1.05, 1.05);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.row-shop-item .card .card-body p {
+  font-size: 16px;
+  color: #636363;
+  margin-bottom: 20px;
+}
+
+.row-shop-item .card .card-body .shop-infor {
+  padding-bottom: 20px;
+}
+
+.row-shop-item .card .card-body .shop-infor a {
+  border: 1px solid #f48c06;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #333533;
+  font-size: 16px;
+  background-color: #f48c06;
+  font-weight: 400;
+  border-radius: 20px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.row-shop-item .card .card-body .shop-infor a:hover {
+  opacity: 0.75;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.row-shop-item .card:hover {
+  -webkit-box-shadow: 0 20px 20px -10px #00000033;
+  box-shadow: 0 20px 20px -10px #00000033;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+/* ------------------css of hotline--- */
+.hotline-phone-ring-wrap {
+  position: fixed;
+  bottom: 10px;
+  left: -10px;
+  z-index: 999999;
+}
+
+.hotline-phone-ring {
+  position: relative;
+  visibility: visible;
+  background-color: transparent;
+  width: 110px;
+  height: 110px;
+  cursor: pointer;
+  z-index: 11;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translateZ(0);
+  transition: visibility .5s;
+  left: 0;
+  bottom: 0;
+  display: block;
+}
+
+.hotline-bar {
+  position: absolute;
+  background-image: linear-gradient(to right, #ff9966 0%, #ff5e62 90%, #ff5e62 100%);
+  height: 50px;
+  border: 2px solid #2699d3;
+  width: 180px;
+  padding-top: 3px;
+  border-radius: 90px !important;
+  /* width: 175px !important; */
+  left: 24px;
+  bottom: -2px;
+}
+
+.hotline-bar>a {
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-indent: 50px;
+  display: block;
+  letter-spacing: 0.1px;
+  line-height: 40px;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.hotline-bar>a:hover,
+.hotline-bar>a:active {
+  color: #fff;
+}
+
+.hotline-phone-ring-circle {
+  width: 95px;
+  height: 95px;
+  top: 40px;
+  left: 0px;
+  position: absolute;
+  background-color: transparent;
+  border-radius: 100%;
+  border: 2px solid #2d92ec;
+  -webkit-animation: phonering-alo-circle-anim 1.2s infinite ease-in-out;
+  animation: phonering-alo-circle-anim 1.2s infinite ease-in-out;
+  transition: all .5s;
+  -webkit-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  opacity: 0.5;
+}
+
+.hotline-phone-ring-circle-fill {
+  width: 65px;
+  height: 65px;
+  top: 55px;
+  bottom: 0px;
+  left: 15px;
+  position: absolute;
+  background-color: rgba(45, 146, 236, .7);
+  border-radius: 100%;
+  border: 2px solid transparent;
+  -webkit-animation: phonering-alo-circle-fill-anim 2.3s infinite ease-in-out;
+  animation: phonering-alo-circle-fill-anim 2.3s infinite ease-in-out;
+  transition: all .5s;
+  -webkit-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+}
+
+.hotline-phone-ring-img-circle {
+  background-color: #2d92ec;
+  width: 43px;
+  height: 43px;
+  top: 65px;
+  left: 27px;
+  position: absolute;
+  background-size: 20px;
+  border-radius: 100%;
+  border: 2px solid transparent;
+  -webkit-animation: phonering-alo-circle-img-anim 1s infinite ease-in-out;
+  animation: phonering-alo-circle-img-anim 1s infinite ease-in-out;
+  -webkit-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hotline-phone-ring-img-circle .pps-btn-img {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hotline-phone-ring-img-circle .pps-btn-img img {
+  width: 25px;
+  height: 25px;
+}
+
+@-webkit-keyframes phonering-alo-circle-anim {
+  0% {
+    -webkit-transform: rotate(0) scale(0.5) skew(1deg);
+    -webkit-opacity: 0.1;
+  }
+
+  30% {
+    -webkit-transform: rotate(0) scale(0.7) skew(1deg);
+    -webkit-opacity: 0.5;
+  }
+
+  100% {
+    -webkit-transform: rotate(0) scale(1) skew(1deg);
+    -webkit-opacity: 0.1;
+  }
+}
+
+@-webkit-keyframes phonering-alo-circle-fill-anim {
+  0% {
+    -webkit-transform: rotate(0) scale(0.7) skew(1deg);
+    opacity: 0.6;
+  }
+
+  50% {
+    -webkit-transform: rotate(0) scale(1) skew(1deg);
+    opacity: 0.6;
+  }
+
+  100% {
+    -webkit-transform: rotate(0) scale(0.7) skew(1deg);
+    opacity: 0.6;
+  }
+}
+
+@-webkit-keyframes phonering-alo-circle-img-anim {
+  0% {
+    -webkit-transform: rotate(0) scale(1) skew(1deg);
+  }
+
+  10% {
+    -webkit-transform: rotate(-25deg) scale(1) skew(1deg);
+  }
+
+  20% {
+    -webkit-transform: rotate(25deg) scale(1) skew(1deg);
+  }
+
+  30% {
+    -webkit-transform: rotate(-25deg) scale(1) skew(1deg);
+  }
+
+  40% {
+    -webkit-transform: rotate(25deg) scale(1) skew(1deg);
+  }
+
+  50% {
+    -webkit-transform: rotate(0) scale(1) skew(1deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(0) scale(1) skew(1deg);
+  }
 }
