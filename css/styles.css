@@ -31,7 +31,7 @@ html {
 }
 
 .header .row .header-left {
-  width: 50%;
+  width: 70%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -57,7 +57,6 @@ html {
   width: 80%;
   -webkit-transform: translateY(8px);
   transform: translateY(8px);
-  text-align: center;
 }
 
 .header .row .header-left .header-nav .nav-content {
@@ -132,7 +131,7 @@ html {
 }
 
 .header .row .header-right {
-  width: 50%;
+  width: 30%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -219,6 +218,16 @@ html {
 
 /* --------------css of index.---------------------- */
 
+.top-title-petspa {
+  font-family: "Baloo Bhaina", cursive;
+  color: rgb(246, 103, 41);
+  font-size: 66.5px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.2;
+  text-shadow: rgb(79 73 73) 3px 2px 3px;
+}
+
 
 
 .button {
@@ -231,12 +240,55 @@ html {
 .title-2-petspa {
   display: flex;
   justify-content: flex-end;
+  font-family: "Baloo Bhaina", cursive;
+  color: rgb(245, 170, 35);
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.2;
+  text-shadow: rgb(79 73 73) 3px 2px 3px;
 }
 
 .title-3-petspa {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   padding: 20px;
+  font-family: "Baloo Bhaina", cursive;
+  color: rgb(92, 36, 11);
+  font-size: 20 px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.ol-1-index {
+  padding: 80px;
+  background-color: rgb(255, 219, 153);
+  border-radius: 100px;
+
+}
+
+.title-ol-1 {
+  font-family: "Baloo Bhaina", cursive;
+  color: rgb(255, 169, 13);
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.6;
+  text-shadow: rgb(67 60 60) 1px 1px 1px;
+}
+
+.ol-1 {
+  font-family: "Quicksand", sans-serif;
+  color: rgb(92, 37, 11);
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.6;
+}
+
+.ol-2-index {
+  padding: 80px;
+  background-color: rgb(255, 219, 153);
+  border-radius: 100px;
 }
 
 .petspa .row {
@@ -250,13 +302,21 @@ html {
 }
 
 #border {
-  border: 2px solid #532e2e;
-  width: 400px;
+  background-color: rgb(255, 219, 153);
+  width: 500px;
   border-radius: 50px 50px;
   text-align: center;
+  display: flex;
+  padding: 20px;
   margin-left: 30%;
+  font-family: "Quicksand", sans-serif;
+  color: rgb(92, 37, 11);
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.6;
 
 }
+
 
 .petspa .row .row-bottom-petspa {
   display: flex;
@@ -265,6 +325,7 @@ html {
 
 .row .row-top-left-petspa {
   width: 50%;
+  padding-top: 100px;
 
 }
 
@@ -279,6 +340,8 @@ html {
 
 .row-bottom-right-petspa {
   width: 50%;
+  padding-top: 100px;
+
 }
 
 
