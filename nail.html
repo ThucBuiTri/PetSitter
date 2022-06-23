@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Home Page</title>
+  <title>Nail Strimming</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" />
@@ -21,13 +21,14 @@
   <div class="header">
     <div class="container">
       <div class="row">
-        <div class="header-left">
-          <div class="header-logo">
-            <a href="index.html">
+        <div class="header-left col-xl-8 col-lg-7 col-3">
+          <div class="header-logo col-lg-1 col-sm-3">
+            <a href="#">
               <img src="./img/Logo-header.png" alt="" />
             </a>
           </div>
-          <div class="header-nav">
+
+          <div class="header-nav col-lg-11">
             <nav class="navbar d-none d-md-block">
               <ul class="nav-content">
                 <li class="nav-item">
@@ -39,32 +40,70 @@
                 <li class="nav-item">
                   <a href="hair.html">
                     Hair
-
                   </a>
 
                 </li>
                 <li class="nav-item">
-                  <a href="petGuide.html">
-                    Pet
+                  <a href="relax.html">
+                    Relax
                   </a>
-
                 </li>
-                <li class="nav-item">
-                  <a href="relax.html">Relax</a>
-                </li>
-                <li class="nav-item">
-                  <a href="wash.html">Wash</a>
-                </li>
-                <li class="nav-item"><a href="order.html">Book</a>
-                </li>
+                <li class="nav-item"><a href="wash.html">Wash</a></li>
+                <li class="nav-item"><a href="order.html">Book</a></li>
               </ul>
             </nav>
           </div>
         </div>
-        <div class="header-right">
-          <div class="login-button">
+        <div class="header-right col-xl-4 col-lg-5 col-7">
+          <div class="header-right-item col-sm-3">
+            <i class="fa-solid fa-magnifying-glass"></i>
             <li class="nav-login"><a href="#">Login</a></li>
-            <button class="button-report">REPORT PET</button>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+              aria-controls="offcanvasNavbar">
+              <span class="navbar-toggler-icon">
+                <i class="fa-solid fa-bars"></i>
+              </span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+              aria-labelledby="offcanvasNavbarLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                  Pet Sitter
+                </h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                  aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1">
+                  <form class="d-flex">
+                    <input class="form-control" type="search" placeholder="Search" aria-label="Search" />
+                  </form>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html"
+                      style="margin-top: 20px">Spa&Gromming</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="nail.html">Nail</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="hair.html">Hair</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="relax.html">Relax</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="wash.html">Wash</a>
+                    <a class="nav-link" href="order.html">Book</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <a href="./lost&found.html" class="btn-report">REPORT PET</a>
+            <!-- <i
+              class="fa-solid fa-cart-shopping cart-header"
+              style="font-size: 24px; margin-left: 22px"
+            ></i> -->
           </div>
         </div>
       </div>
@@ -74,9 +113,9 @@
     <div class="test-scroll-script" onscroll="myFunction()">
       <div class="background-color-all">
         <div class="container">
-          <h1> Pet nail cutting is not as difficult as you think.</h1>
+          <h1 class="big-title"> Pet nail cutting is not as difficult as you think.</h1>
           <div>
-            <h5>Steps To Cut Dog Nails At Home & Introducing The Nail Clipper Kit</h5>
+            <h5 class="small-title">Steps To Cut Dog Nails At Home & Introducing The Nail Clipper Kit</h5>
             <p class="padding-p-relax">When raising pet dogs, many owners are only interested in bathing and trimming,
               but
               forget that
@@ -89,7 +128,7 @@
               at home with a very discounted </br>nail trimming kit</p>
           </div>
           <div>
-            <h3>Why is it important to trim the dog's nails so often?</h3>
+            <h3 class="small-title">Why is it important to trim the dog's nails so often?</h3>
             <div class="img-center">
               <img src="img/first-img-nail.jpg" alt="">
               <p class="text-center">Dogs should be trimmed regularly</p>
@@ -114,7 +153,7 @@
             </ul>
           </div>
           <div>
-            <h3>How often should a dog's nails be trimmed?
+            <h3 class="small-title">How often should a dog's nails be trimmed?
             </h3>
 
             <p class="padding-p-relax">Dog's toenails grow pretty quickly, so it's usually a good idea to trim or
@@ -126,7 +165,7 @@
               take your dog to pet spas for nail trimming.</br> This will make it much cleaner and safer.</p>
           </div>
           <div>
-            <h3>Nail clippers</h3>
+            <h3 class="small-title">Nail clippers</h3>
             <p class="padding-p-relax">Dog nail clippers require a separate kit because dog nails are very thick and
               hard.
               You can not
@@ -158,9 +197,9 @@
               than ever. If you do not own a set like this,</br> please visit Shop.PettSitter to order it!</p>
           </div>
           <div>
-            <h3>Steps to cut dog nails at home
+            <h3 class="small-title">Steps to cut dog nails at home
             </h3>
-            <h4>Note the "pink area" before cutting the dog's nails
+            <h4 class="small-title">Note the "pink area" before cutting the dog's nails
             </h4>
             <p class="padding-p-relax">The "pink zone" is an area in a dog's paw that contains many blood vessels and
               nerves. If you
@@ -172,7 +211,7 @@
             </div>
           </div>
           <div>
-            <h3>Steps to cut dog nails</h3>
+            <h3 class="small-title">Steps to cut dog nails</h3>
             <p class="padding-p-relax">There are many different nail clippers, but there are two simple and most popular
               ones: square
               (U-shaped ) and scissors.</br> If you are just starting to practice cutting, you should choose the
@@ -215,7 +254,7 @@
             </ol>
           </div>
           <div>
-            <h3>Some notes when cutting nails
+            <h3 class="small-title">Some notes when cutting nails
             </h3>
             <ul>
               <li>You cannot use a human nail clipper to cut a dog. It can soften the nails, causing pain or
@@ -238,22 +277,22 @@
             </ul>
           </div>
           <div>
-            <h3>Harmful myths about cutting dog nails</h3>
-            <h6>Dog's nails don't grow at all or grow very little?</h6>
+            <h3 class="small-title">Harmful myths about cutting dog nails</h3>
+            <h6 class="small-title">Dog's nails don't grow at all or grow very little?</h6>
             <p class="padding-p-relax">The truth is that dog toenails are just like human nails. It will lengthen
               continuously from the time
               they are born until they die. </br>If the claws are too long, the dog will not be able to move quickly
               because of the pain, the ability to grip the ground will no longer be,</br> so the running speed will
               decrease sharply. In some severe cases, long nails can get stuck in the flesh, causing pain and
               severe infection.</p>
-            <h6>Dog nails don't need to be cut but will wear off on their own?</h6>
+            <h6 class="small-title">Dog nails don't need to be cut but will wear off on their own?</h6>
             <p class="padding-p-relax">Today's dogs are almost no longer able to self-abrasive like in the past. The
               reason may be due to
               the narrow living space, </br>they rarely run and play, so the foundation does not have the opportunity
               to rub with the ground to wear it off. Moreover,</br> most houses today are designed with beautiful
               smooth brick floors. It's really a nightmare for dogs because the slippery,</br> does not help them in
               sharpening their nails.</p>
-            <h6>Will nail clipping cause pain and bleeding for the dog?
+            <h6 class="small-title">Will nail clipping cause pain and bleeding for the dog?
             </h6>
             <p class="padding-p-relax">Dog nails are similar to human nails, so cutting them will not cause any pain.
               Except, you cut the
@@ -263,7 +302,7 @@
             </p>
           </div>
           <div>
-            <h3>Epilogue:
+            <h3 class="small-title">Epilogue:
             </h3>
             <p class="padding-p-relax">Clipping dog nails is a necessary job to keep the dog clean and healthy. If you
               know how to cut
@@ -570,6 +609,9 @@
       </div>
     </div>
   </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
 </body>
 
 <i id="backtop" class="fas fa-chevron-up"></i>

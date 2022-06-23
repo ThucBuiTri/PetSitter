@@ -2,248 +2,202 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
 
   <link rel="stylesheet" href="css/styles.css">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Order</title>
+  <title>Book Services</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
-  <link rel="stylesheet" href="css/styles.css" />
-
-
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
-  <div style="background-color:#FFF5EE">
-    <div class="header">
-      <div class="container">
-        <div class="row">
-          <div class="header-left">
-            <div class="header-logo">
-              <a href="#">
-                <img src="./img/Logo-header.png" alt="" />
-              </a>
-            </div>
-            <div class="header-nav">
-              <nav class="navbar d-none d-md-block">
-                <ul class="nav-content">
-                  <li class="nav-item">
-                    <a href="index.html">Spa&Gromming</a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="nail.html">Nail </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="hair.html">
-                      Hair
 
-                    </a>
-
-                  </li>
-                  <li class="nav-item">
-                    <a href="petGuide.html">
-                      Pet
-                    </a>
-
-                  </li>
-                  <li class="nav-item">
-                    <a href="relax.html">Relax </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="wash.html">Wash </a>
-                  </li>
-                  <li class="nav-item"><a href="order.html">Book</a>
-                  </li>
-                </ul>
-              </nav>
-            </div>
-          </div>
-          <div class="header-right">
-            <div class="login-button">
-              <li class="nav-login"><a href="#">Login</a></li>
-              <button class="button-report">REPORT PET</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+  <section class="petguide">
     <div class="container">
-      <div>
-        <h1 class="top-title-petspa">Send us your Service Book</h1>
-      </div>
-      <div class="order-form">
-        <div>
-          <div class="form">
-            <div class="title">Welcome</div>
-            <div class="subtitle">Let's create new booking service</div>
-            <div class="input-container ic1">
-              <input id="firstname" class="input" type="text" placeholder=" " />
-              <div class="cut"></div>
-              <label for="firstname" class="placeholder">Your Name</label>
-            </div>
-            <div class="input-container ic2">
-              <input id="lastname" class="input" type="text" placeholder=" " />
-              <div class="cut"></div>
-              <label for="lastname" class="placeholder">Your Phone Number</label>
-            </div>
-            <div class="input-container ic2">
-              <input id="email" class="input" type="text" placeholder=" " />
-              <div class="cut cut-short"></div>
-              <label for="lastname" class="placeholder">Your Email</label>
-            </div>
-            <div class="input-container ic2">
-              <select id="inputState" class="input" class="form-control">
-                <option selected>Choose Your Branch</option>
-                <option>District 1</option>
-                <option>District 10</option>
-                <option>District 9</option>
-                <option>Binh Thanh District</option>
-              </select>
-            </div>
-            <div class="input-container ic2">
-              <select id="inputState" class="input" class="form-control">
-                <option selected>Choose Your Services</option>
-                <option>Wash Strimming</option>
-                <option>Hair Strimming</option>
-                <option>Nail Strimming</option>
-              </select>
-            </div>
-            <div class="input-container ic1">
-              <input id="firstname" class="input" type="text" placeholder=" " />
-              <div class="cut"></div>
-              <label for="firstname" class="placeholder">Pet Status</label>
-            </div>
-            <button type="text" class="submit">submit</button>
-          </div>
-        </div>
-        <div id="mycarousel" class="carousel slide" data-ride="carousel">
-          <div class="carousel-inner" role="listbox">
-            <div class="carousel-item active">
-              <img class="d-block w-100" src="img/carosel-1.jpg" alt="Room Images">
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="img/carosel-2.jpg" alt="Room Images">
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="img/carosel-3.jpg" alt="Room Images">
+      <div class="row">
+        <div class="row-top">
+          <div class="row-top-left">
+            <div class="order-form">
+              <div>
+                <div class="form">
+                  <div class="title">Welcome</div>
+                  <div class="subtitle">Let's create new booking service</div>
+                  <div class="input-container ic1">
+                    <input id="firstname" class="input" type="text" placeholder=" " />
+                    <div class="cut"></div>
+                    <label for="firstname" class="placeholder">Your Name</label>
+                  </div>
+                  <div class="input-container ic2">
+                    <input id="lastname" class="input" type="text" placeholder=" " />
+                    <div class="cut"></div>
+                    <label for="lastname" class="placeholder">Your Phone Number</label>
+                  </div>
+                  <div class="input-container ic2">
+                    <input id="email" class="input" type="text" placeholder=" " />
+                    <div class="cut cut-short"></div>
+                    <label for="lastname" class="placeholder">Your Email</label>
+                  </div>
+                  <div class="input-container ic2">
+                    <select id="inputState" class="input" class="form-control">
+                      <option selected>Choose Your Branch</option>
+                      <option>District 1</option>
+                      <option>District 10</option>
+                      <option>District 9</option>
+                      <option>Binh Thanh District</option>
+                    </select>
+                  </div>
+                  <div class="input-container ic2">
+                    <select id="inputState" class="input" class="form-control">
+                      <option selected>Choose Your Services</option>
+                      <option>Wash Strimming</option>
+                      <option>Hair Strimming</option>
+                      <option>Nail Strimming</option>
+                    </select>
+                  </div>
+                  <div class="input-container ic1">
+                    <input id="firstname" class="input" type="text" placeholder=" " />
+                    <div class="cut"></div>
+                    <label for="firstname" class="placeholder">Pet Status</label>
+                  </div>
+                  <button type="text" class="submit">submit</button>
+                </div>
+              </div>
+
             </div>
           </div>
-          <ol class="carousel-indicators">
-            <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#mycarousel" data-slide-to="1"></li>
-            <li data-target="#mycarousel" data-slide-to="2"></li>
+          <div class="row-top-right">
 
-          </ol>
-          <a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-          </a>
-          <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next">
-            <span class="carousel-control-next-icon"></span>
-          </a>
+            <div style="width:80% ;" id="mycarousel" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                  <img class="d-block w-100" src="img/carosel-1.jpg" alt="Room Images">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="img/carosel-2.jpg" alt="Room Images">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="img/carosel-3.jpg" alt="Room Images">
+                </div>
+              </div>
+              <ol class="carousel-indicators">
+                <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#mycarousel" data-slide-to="1"></li>
+                <li data-target="#mycarousel" data-slide-to="2"></li>
 
+              </ol>
+              <a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </a>
+              <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </a>
+
+            </div>
+          </div>
         </div>
-      </div>
-      <div>
-        <table class="table-1" border="2">
-          <tr id="hair-dye">
-            <th>Weight</th>
-            <th>Wash Clear</th>
-            <th>Wash Hair Strimming</th>
-            <th>Wash Nail Strimming</th>
-            <th>Service Includes</th>
-          </tr>
-          <tr>
-            <td>3kg</td>
-            <td>150.000</td>
-            <td>200.000</td>
-            <td>300.000</td>
-            <td rowspan="8">
-              - Spa </br>
-              - Hair drying, brushing </br>
-              - ear hygiene</br>
-              - relaxing massage
-            </td>
-          </tr>
-          <tr>
-            <td>3 - 9kg</td>
-            <td>250.000</td>
-            <td>300.000</td>
-            <td>400.000</td>
-          </tr>
-          <tr>
-            <td>10 - 15kg</td>
-            <td>300.000</td>
-            <td>400.000</td>
-            <td>500.000</td>
-          </tr>
-          <tr>
-            <td>16 - 20kg</td>
-            <td>350.000</td>
-            <td>450.000</td>
-            <td>550.000</td>
-          </tr>
-          <tr>
-            <td>21 - 25kg</td>
-            <td>450.000</td>
-            <td>550.000</td>
-            <td>650.000</td>
-          </tr>
-          <tr>
-            <td>26 - 30kg</td>
-            <td>500.000</td>
-            <td>600.000</td>
-            <td>700.000</td>
-          </tr>
-          <tr>
-            <td>31 - 35kg</td>
-            <td>550.000</td>
-            <td>650.000</td>
-            <td>800.000</td>
-          </tr>
-          <tr>
-            <td>35kg</td>
-            <td>600.000</td>
-            <td>700.000</td>
-            <td>900.000</td>
-          </tr>
-        </table>
-        <div class="table-2-3">
-          <div>
-            <table class="table-2" border="1">
+        <div class="row-bottom">
+          <div class="row-bottom-left">
+            <table class="table-1" border="2">
               <tr id="hair-dye">
-                <th colspan="3">Hair dye</th>
+                <th>Weight</th>
+                <th>Wash Clear</th>
+                <th>Wash Hair Strimming</th>
+                <th>Wash Nail Strimming</th>
+                <th>Service Includes</th>
               </tr>
               <tr>
-                <td>Ears + Tail(1 color)</td>
-                <td>280.000</td>
-              </tr>
-              <tr>
-                <td>4 Legs(1 color)</td>
-                <td>200.000</td>
-              </tr>
-              <tr>
-                <td>Body</td>
-                <td>350.000</td>
-              </tr>
-              <tr>
-                <td>Ears + Tail(2 color)</td>
-                <td>300.000</td>
-              </tr>
-              <tr>
-                <td>4 Legs(2 color)</td>
+                <td>3kg</td>
                 <td>150.000</td>
+                <td>200.000</td>
+                <td>300.000</td>
+                <td rowspan="8">
+                  - Spa </br>
+                  - Hair drying, brushing </br>
+                  - ear hygiene</br>
+                  - relaxing massage
+                </td>
               </tr>
               <tr>
-                <td>Tail</td>
-                <td>100.000</td>
+                <td>3 - 9kg</td>
+                <td>250.000</td>
+                <td>300.000</td>
+                <td>400.000</td>
+              </tr>
+              <tr>
+                <td>10 - 15kg</td>
+                <td>300.000</td>
+                <td>400.000</td>
+                <td>500.000</td>
+              </tr>
+              <tr>
+                <td>16 - 20kg</td>
+                <td>350.000</td>
+                <td>450.000</td>
+                <td>550.000</td>
+              </tr>
+              <tr>
+                <td>21 - 25kg</td>
+                <td>450.000</td>
+                <td>550.000</td>
+                <td>650.000</td>
+              </tr>
+              <tr>
+                <td>26 - 30kg</td>
+                <td>500.000</td>
+                <td>600.000</td>
+                <td>700.000</td>
+              </tr>
+              <tr>
+                <td>31 - 35kg</td>
+                <td>550.000</td>
+                <td>650.000</td>
+                <td>800.000</td>
+              </tr>
+              <tr>
+                <td>35kg</td>
+                <td>600.000</td>
+                <td>700.000</td>
+                <td>900.000</td>
               </tr>
             </table>
           </div>
-          <div>
+          <div class="row-bottom-right">
+            <div class="table-2-3">
+              <table class="table-2" border="1">
+                <tr id="hair-dye">
+                  <th colspan="3">Hair dye</th>
+                </tr>
+                <tr>
+                  <td>Ears + Tail(1 color)</td>
+                  <td>280.000</td>
+                </tr>
+                <tr>
+                  <td>4 Legs(1 color)</td>
+                  <td>200.000</td>
+                </tr>
+                <tr>
+                  <td>Body</td>
+                  <td>350.000</td>
+                </tr>
+                <tr>
+                  <td>Ears + Tail(2 color)</td>
+                  <td>300.000</td>
+                </tr>
+                <tr>
+                  <td>4 Legs(2 color)</td>
+                  <td>150.000</td>
+                </tr>
+                <tr>
+                  <td>Tail</td>
+                  <td>100.000</td>
+                </tr>
+              </table>
+
+            </div>
             <table class="table-3" border="1">
               <tr id="hair-dye">
                 <th colspan="4">Pet Hotel</th>
@@ -277,143 +231,7 @@
         </div>
       </div>
     </div>
-    <div class="hotline-phone-ring-wrap">
-      <div class="hotline-phone-ring">
-        <div class="hotline-phone-ring-circle">&nbsp;</div>
-        <div class="hotline-phone-ring-circle-fill">&nbsp;</div>
-        <div class="hotline-phone-ring-img-circle"><span style="color: #f2f2f2;"><a class="pps-btn-img"
-              style="color: #f2f2f2;" href="tel:0856597778">
-              <img src="https://lutaweb.com/wp-content/uploads/2020/06/icon-call-nh.png" alt="Gọi điện thoại"
-                width="50">
-            </a>
-          </span>
-        </div>
-      </div>
-    </div>
-    <footer class="footer">
-      <div class="container">
-        <div class="row-footer">
-          <div class="footer-left">
-            <div class="footer-img">
-              <a href="#">
-                <img src="./img/Logo-header.png" alt="" />
-              </a>
-            </div>
-            <div class="footer-text">
-              <i class="fa-solid fa-phone"></i>
-              <p>
-                1800-123-4567 <br />
-                +91 987-654-3210
-              </p>
-            </div>
-            <div class="footer-text">
-              <i class="fa-solid fa-envelope"></i>
-              <p>
-                pettsitter@gmail.com <br />
-                service@gmail.com
-              </p>
-            </div>
-          </div>
-          <div class="footer-right">
-            <div class="footer-item">
-              <h3>Quick Access</h3>
-              <i class="fa-solid fa-angle-right"></i>
-              <a href="#"> <span>Lost&Found</span> <br /> </a>
-              <i class="fa-solid fa-angle-right"></i>
-              <a href="#"> <span>Pet Item</span> <br /> </a>
-              <i class="fa-solid fa-angle-right"></i>
-              <a href="#"> <span>Pet Shop</span> <br /> </a>
-              <i class="fa-solid fa-angle-right"></i>
-              <a href="#"> <span>Spa&Grooming</span> <br /> </a>
-              <i class="fa-solid fa-angle-right"></i>
-              <a href="#"> <span>Pet Hotel</span> <br /> </a>
-              <i class="fa-solid fa-angle-right"></i>
-              <a href="#">
-                <span>Pet Guide</span>
-              </a>
-            </div>
-            <div class="footer-item footer-contact">
-              <h3>Follow Us</h3>
-              <i class="fa-solid fa-angle-right"></i>
-              <a href="#">
-                <span>Facebook</span>
-              </a>
-              <i class="fa-brands fa-facebook-square" style="color: #4267b2"></i>
-              <br />
-              <i class="fa-solid fa-angle-right"></i>
-              <a href="#">
-                <span>Youtube</span>
-              </a>
-              <i class="fa-brands fa-youtube" style="color: #ff0000"></i> <br />
-              <i class="fa-solid fa-angle-right"></i>
-              <a href="#">
-                <span>Twitter</span>
-              </a>
-              <i class="fa-brands fa-twitter" style="color: #1da1f2"></i>
-            </div>
-            <div class="footer-item">
-              <h3>Shop Menu</h3>
-              <i class="fa-solid fa-angle-right"></i>
-              <a href="#"> <span>Kennel</span> <br /> </a>
-              <i class="fa-solid fa-angle-right"></i>
-              <a href="#"> <span>Food</span> <br /> </a>
-              <i class="fa-solid fa-angle-right"></i>
-              <a href="#"> <span>Bag</span> <br /> </a>
-              <i class="fa-solid fa-angle-right"></i>
-              <a href="#">
-                <span>Muzzle</span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <div class="footer-coppyright">
-      <div class="container">
-        <div class="row-coppyright">
-          <div class="coppyright-left">
-            <p>
-              Copyright © 2022 <a href="#">PettSitter</a> . All rights reserved.
-            </p>
-          </div>
-          <div class="coppyright-right">
-            <a href="#">
-              <i class="fa-brands fa-facebook-f" style="padding: 10px 15px; border-radius: 50%"></i>
-            </a>
-            <a href="#">
-              <i class="fa-brands fa-youtube"></i>
-            </a>
-            <a href="#">
-              <i class="fa-brands fa-twitter"></i>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <i id="backtop" class="fas fa-chevron-up"></i>
-  </div>
+  </section>
 </body>
-<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
-  crossorigin="anonymous">
-  </script>
-<script>
-  $(document).ready(function () {
-    $(window).scroll(function () {
-      if ($(this).scrollTop()) {
-        $('#backtop').fadeIn();
-      } else {
-        $('#backtop').fadeOut();
-      }
-    });
-    $("#backtop").click(function () {
-      $('html, body').animate({
-        scrollTop: 0
-      }, 200);
-
-    });
-  });
-
-</script>
 
 </html>

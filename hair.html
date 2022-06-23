@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Home Page</title>
+  <title>Hair Strimming</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" />
@@ -22,50 +22,89 @@
   <div class="header">
     <div class="container">
       <div class="row">
-        <div class="header-left">
-          <div class="header-logo">
+        <div class="header-left col-xl-8 col-lg-7 col-3">
+          <div class="header-logo col-lg-1 col-sm-3">
             <a href="#">
               <img src="./img/Logo-header.png" alt="" />
             </a>
           </div>
-          <div class="header-nav">
+
+          <div class="header-nav col-lg-11">
             <nav class="navbar d-none d-md-block">
               <ul class="nav-content">
                 <li class="nav-item">
                   <a href="index.html">Spa&Gromming</a>
                 </li>
                 <li class="nav-item">
-                  <a href="nail.html">Nail </a>
+                  <a href="nail.html">Nail</a>
                 </li>
                 <li class="nav-item">
                   <a href="hair.html">
                     Hair
-
                   </a>
 
                 </li>
                 <li class="nav-item">
-                  <a href="petGuide.html">
-                    Pet
+                  <a href="relax.html">
+                    Relax
                   </a>
-
                 </li>
-                <li class="nav-item">
-                  <a href="relax.html">Relax </a>
-                </li>
-                <li class="nav-item">
-                  <a href="wash.html">Wash </a>
-                </li>
-                <li class="nav-item"><a href="order.html">Book</a>
-                </li>
+                <li class="nav-item"><a href="wash.html">Wash</a></li>
+                <li class="nav-item"><a href="order.html">Book</a></li>
               </ul>
             </nav>
           </div>
         </div>
-        <div class="header-right">
-          <div class="login-button">
+        <div class="header-right col-xl-4 col-lg-5 col-7">
+          <div class="header-right-item col-sm-3">
+            <i class="fa-solid fa-magnifying-glass"></i>
             <li class="nav-login"><a href="#">Login</a></li>
-            <button class="button-report">REPORT PET</button>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+              aria-controls="offcanvasNavbar">
+              <span class="navbar-toggler-icon">
+                <i class="fa-solid fa-bars"></i>
+              </span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+              aria-labelledby="offcanvasNavbarLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                  Pet Sitter
+                </h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                  aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1">
+                  <form class="d-flex">
+                    <input class="form-control" type="search" placeholder="Search" aria-label="Search" />
+                  </form>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html"
+                      style="margin-top: 20px">Spa&Gromming</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="nail.html">Nail</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="hair.html">Hair</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="relax.html">Relax</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="wash.html">Wash</a>
+                    <a class="nav-link" href="order.html">Book</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <a href="./lost&found.html" class="btn-report">REPORT PET</a>
+            <!-- <i
+              class="fa-solid fa-cart-shopping cart-header"
+              style="font-size: 24px; margin-left: 22px"
+            ></i> -->
           </div>
         </div>
       </div>
@@ -84,7 +123,7 @@
         <div class="container">
           <div class="row">
             <div>
-              <h1>Dog Trimming Process at Home</h1>
+              <h1 class="big-title">Dog Trimming Process at Home</h1>
               <p class="padding-p-relax">Want to trim your dog's hair at home but not sure what the trimming process
                 will
                 be? Indeed, it is very
@@ -96,14 +135,14 @@
               </div>
             </div>
             <div>
-              <h3>Things to prepare to trim your dog's hair at home</h3>
+              <h3 class="small-title">Things to prepare to trim your dog's hair at home</h3>
               <p class="padding-p-relax">Before trimming the dog's hair, we should prepare all the items to facilitate
                 the
                 process. The tools you need
                 are:</p>
             </div>
             <div>
-              <h4>Trimmer:
+              <h4 class="small-title">Trimmer:
               </h4>
               <p class="padding-p-relax">Trimmers can help you clean up areas of dense hair that scissors can't. With
                 super
@@ -119,7 +158,7 @@
                 the wire like a corded trimmer.</p>
             </div>
             <div>
-              <h4>Comb</h4>
+              <h4 class="small-title">Comb</h4>
               <p class="padding-p-relax">You need to comb and detangle the dog's coat before trimming the dog's coat.
                 That's
                 why combs are a must-have
@@ -128,7 +167,7 @@
                 appropriate options.</p>
             </div>
             <div>
-              <h4>Drag</h4>
+              <h4 class="small-title">Drag</h4>
               <p class="padding-p-relax">Do not think that just a normal pair of scissors bought at the market is enough
                 to
                 trim the dog's hair. Dog
@@ -151,12 +190,12 @@
               </ul>
             </div>
             <div>
-              <h3>The process of trimming dog hair at home properly</h3>
+              <h3 class="small-title">The process of trimming dog hair at home properly</h3>
               <p class="padding-p-relax">Once you're ready, let's start trimming your baby's hair.
               </p>
             </div>
             <div>
-              <h4>Step 1: Clean hair clippers</h4>
+              <h4 class="small-title">Step 1: Clean hair clippers</h4>
               <p class="padding-p-relax">The hair clippers are rarely used, but the bacteria on them are not few. You
                 need
                 to wash them before using.
@@ -168,7 +207,7 @@
               </p>
             </div>
             <div>
-              <h4>Step 2: Brush your dog's coat</h4>
+              <h4 class="small-title">Step 2: Brush your dog's coat</h4>
               <p class="padding-p-relax">Before proceeding with trimming, you need to thoroughly comb all parts of the
                 dog's
                 body to remove loose
@@ -187,7 +226,7 @@
               </p>
             </div>
             <div>
-              <h4>Step 3: Fix your dog</h4>
+              <h4 class="small-title">Step 3: Fix your dog</h4>
               <p class="padding-p-relax">While trimming the dog's coat, she kept running around. It's dangerous and
                 frustrating, isn't it? To ensure
                 safety and save time, </br>it is best to use a fixed collar or ask someone to hold it tight during the
@@ -199,7 +238,7 @@
 
             </div>
             <div>
-              <h3>Step 4: Trim the important part first</h3>
+              <h3 class="small-title">Step 4: Trim the important part first</h3>
               <p class="padding-p-relax">The later the puppy gets impatient. She may bark more, wiggle more. So, trim
                 the
                 hair in sensitive areas
@@ -458,6 +497,9 @@
       </div>
     </div>
   </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
 </body>
 <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
   crossorigin="anonymous">
