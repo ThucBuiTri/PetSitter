@@ -407,6 +407,7 @@ html {
   text-align: center;
   line-height: 1.2;
   text-shadow: rgb(79 73 73) 3px 2px 3px;
+  padding-top: 2%;
 }
 
 
@@ -475,7 +476,6 @@ html {
 
 .petspa .row {
   display: flex;
-  margin-top: 2%;
 }
 
 .petspa .row .row-top-petspa {
@@ -1278,4 +1278,53 @@ footer .row .footer-item a:hover {
   letter-spacing: 2px;
   line-height: 1.6;
   text-decoration: none
+}
+
+/* ------------------css off order-------- */
+
+
+.table-1 {
+  width: 90.4%;
+  padding-left: 130px;
+}
+
+
+.table-2 {
+  width: 400px;
+}
+
+.table-3 {
+  width: 600px;
+  padding: 20px;
+  padding-top: 40px;
+}
+
+.table-2-3 {
+  display: flex;
+  padding-left: 164px;
+}
+
+.caro-book {
+  display: flex;
+  padding-left: 130px;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+.book-service {
+  padding-left: 50px;
+  width: 100%;
+}
+
+.choose-role {
+  margin-bottom: 16px;
+}
+
+.btn {
+  background: #CFE2FF;
+}
+
+.btn {
+  background: #CFE2FF;
+  width: 100%;
 }
