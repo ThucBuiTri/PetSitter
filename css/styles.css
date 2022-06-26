@@ -410,6 +410,10 @@ html {
   padding-top: 2%;
 }
 
+.top-right-title {
+  text-align: center;
+}
+
 
 
 .button {
@@ -531,6 +535,12 @@ html {
 
 
 /* -----------css of wash--------------------- */
+.petguide-color {
+  background: #e0b697;
+  display: inline-block;
+
+
+}
 
 .wash {
   background-color: #FFFFF0;
@@ -539,6 +549,8 @@ html {
 .list-wash-dog-catton {
   display: flex;
   padding-left: 37%;
+  padding-top: 5%;
+  padding-bottom: 3%;
 }
 
 .list-width {
@@ -1220,10 +1232,7 @@ footer .row .footer-item a:hover {
   -ms-user-select: none
 }
 
-.ladi-headline5 {
-  display: table-cell;
-  vertical-align: middle
-}
+
 
 #BUTTON3855 {
   width: 150px;
@@ -1277,7 +1286,9 @@ footer .row .footer-item a:hover {
   text-align: center;
   letter-spacing: 2px;
   line-height: 1.6;
-  text-decoration: none
+  text-decoration: none;
+  display: table-cell;
+  vertical-align: middle
 }
 
 /* ------------------css off order-------- */
