@@ -547,15 +547,13 @@ html {
 }
 
 .list-wash-dog-catton {
-  display: flex;
-  padding-left: 37%;
-  padding-top: 5%;
-  padding-bottom: 3%;
+  padding-left: 26%;
+  padding-top: 3%;
 }
 
 .list-width {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
 }
 
 .wash .row {
@@ -566,6 +564,7 @@ html {
 .wash .row .row-top-wash {
   display: flex;
   flex-direction: row;
+  padding-top: 3%;
 }
 
 .wash .row .row-bottom-wash {
