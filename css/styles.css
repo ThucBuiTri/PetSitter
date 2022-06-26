@@ -535,11 +535,17 @@ html {
 
 
 /* -----------css of wash--------------------- */
+.welcome {
+  font-family: Baloo Bhaina, cursive;
+  color: rgb(255, 169, 13);
+  font-size: 32px;
+
+}
+
 .petguide-color {
+
   background: #e0b697;
   display: inline-block;
-
-
 }
 
 .wash {
@@ -1305,13 +1311,12 @@ footer .row .footer-item a:hover {
 
 .table-3 {
   width: 600px;
-  padding: 20px;
-  padding-top: 40px;
+  padding-left: 20px;
 }
 
 .table-2-3 {
   display: flex;
-  padding-left: 164px;
+  padding-left: 152px;
 }
 
 .caro-book {
