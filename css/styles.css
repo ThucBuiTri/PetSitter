@@ -1,5 +1,4 @@
 .background-color-all {
-  margin-left: 10%;
   background-color: #FFFFF0;
 }
 
@@ -816,13 +815,12 @@ footer .row .footer-item a:hover {
 
 /* -------------------css of card right(ads)-- */
 
-.row-nail-pr {
-  display: flex;
+.nail-pr {
   background-color: #FFF5EE;
 }
 
 
-.row-shop-item {
+.shop-item {
   padding: 5%;
 
 }
@@ -833,11 +831,11 @@ footer .row .footer-item a:hover {
   border-radius: 10px;
 }
 
-.row-shop-item .card .card-img {
+.shop-item .card .card-img {
   overflow: hidden;
 }
 
-.row-shop-item .card .card-img img {
+.shop-item .card .card-img img {
   width: 100%;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -845,24 +843,24 @@ footer .row .footer-item a:hover {
   transition: 0.4s;
 }
 
-.row-shop-item .card .card-img img:hover {
+.shop-item .card .card-img img:hover {
   -webkit-transform: scale(1.05, 1.05);
   transform: scale(1.05, 1.05);
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
 
-.row-shop-item .card .card-body p {
+.shop-item .card .card-body p {
   font-size: 16px;
   color: #636363;
   margin-bottom: 20px;
 }
 
-.row-shop-item .card .card-body .shop-infor {
+.shop-item .card .card-body .shop-infor {
   padding-bottom: 20px;
 }
 
-.row-shop-item .card .card-body .shop-infor a {
+.shop-item .card .card-body .shop-infor a {
   border: 1px solid #f48c06;
   padding: 10px 20px;
   text-decoration: none;
@@ -875,13 +873,13 @@ footer .row .footer-item a:hover {
   transition: 0.4s;
 }
 
-.row-shop-item .card .card-body .shop-infor a:hover {
+.shop-item .card .card-body .shop-infor a:hover {
   opacity: 0.75;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
 
-.row-shop-item .card:hover {
+.shop-item .card:hover {
   -webkit-box-shadow: 0 20px 20px -10px #00000033;
   box-shadow: 0 20px 20px -10px #00000033;
   -webkit-transition: all 0.2s ease-in-out;
@@ -1096,8 +1094,6 @@ footer .row .footer-item a:hover {
 
 /* ----------------css off scroll-- */
 .test-scroll-cart {
-  width: 400px;
-  height: 1000px;
   overflow: scroll;
 }
 
@@ -1110,8 +1106,6 @@ footer .row .footer-item a:hover {
 }
 
 .test-scroll-script {
-  width: 1500px;
-  height: 1000px;
   overflow: scroll;
 }
 
