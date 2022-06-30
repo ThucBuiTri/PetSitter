@@ -447,6 +447,15 @@ html {
   line-height: 1.6;
 }
 
+.img1-spa-gromming {
+  width: 500px;
+  margin-left: 14%;
+}
+
+.img2-spa-gromming {
+  width: 450px;
+}
+
 .ol-1-index {
   padding: 50px;
   background-color: rgb(255, 219, 153);
@@ -506,7 +515,6 @@ html {
 
 .petspa .row .row-bottom-petspa {
   display: flex;
-  flex-direction: row;
 }
 
 .row .row-top-left-petspa {
@@ -555,6 +563,58 @@ html {
 .list-wash-dog-catton {
   padding-left: 26%;
   padding-top: 3%;
+  display: flex;
+}
+
+@media screen and (max-width: 992px) {
+  .list-wash-dog-catton {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .list-wash-dog-catton img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .img-1 {
+    width: 30.33%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .img-2 {
+    width: 30.33%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .img-3 {
+    width: 30.33%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .img-1 {
+    width: 20.33%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .img-2 {
+    width: 20.33%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .img-3 {
+    width: 20.33%;
+  }
 }
 
 .list-width {
@@ -573,9 +633,21 @@ html {
   padding-top: 3%;
 }
 
+@media screen and (max-width: 992px) {
+  .wash .row .row-top-wash {
+    flex-direction: column;
+  }
+}
+
 .wash .row .row-bottom-wash {
   display: flex;
   flex-direction: row;
+}
+
+@media screen and (max-width: 992px) {
+  .wash .row .row-bottom-wash {
+    flex-direction: column;
+  }
 }
 
 .padding-p {
@@ -587,24 +659,60 @@ html {
   width: 33%;
 }
 
+@media screen and (max-width: 992px) {
+  .row .row-top-left-wash {
+    width: 100%;
+  }
+}
+
 .row .row-top-center-wash {
   width: 33%;
+}
+
+@media screen and (max-width: 992px) {
+  .row .row-top-center-wash {
+    width: 100%;
+  }
 }
 
 .row .row-top-right-wash {
   width: 33%;
 }
 
+@media screen and (max-width: 992px) {
+  .row .row-top-right-wash {
+    width: 100%;
+  }
+}
+
 .row .row-bottom-left-wash {
   width: 33%;
+}
+
+@media screen and (max-width: 992px) {
+  .row .row-bottom-left-wash {
+    width: 100%;
+  }
 }
 
 .row .row-bottom-center-wash {
   width: 33%;
 }
 
+@media screen and (max-width: 992px) {
+  .row .row-bottom-center-wash {
+    width: 100%;
+  }
+}
+
 .row-bottom-right-wash {
   width: 33%;
+}
+
+@media screen and (max-width: 992px) {
+  .row-bottom-right-wash {
+    width: 100%;
+  }
 }
 
 /* ---------------css of nail------------------ */
@@ -630,9 +738,7 @@ html {
   padding: 10px;
 }
 
-.step-cut-nail {
-  width: 800px;
-}
+
 
 .padding-step-nail {
   padding: 8px;
@@ -809,10 +915,6 @@ footer .row .footer-item a:hover {
   transition: 0.4s;
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
-
-
-
-
 
 /* -------------------css of card right(ads)-- */
 
@@ -1080,8 +1182,8 @@ footer .row .footer-item a:hover {
 
 /* ---------button backtotop--- */
 #backtop {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   background: tomato;
   color: #f2f2f2;
   display: flex;
@@ -1342,4 +1444,121 @@ footer .row .footer-item a:hover {
 .btn {
   background: #CFE2FF;
   width: 100%;
+}
+
+@media screen and (max-width: 992px) {
+  .test-scroll-cart {
+    display: none;
+  }
+
+  .test-scroll-script {
+    margin-left: -50px;
+  }
+
+  .img-respon {
+    width: 250px;
+  }
+
+  #BUTTON385 {
+    display: none;
+  }
+
+  .big-title {
+    padding-left: 10px;
+  }
+
+  #backtop {
+
+    margin-right: -6%;
+  }
+
+  .text-center {
+    font-size: 12px;
+  }
+}
+
+@media screen and (width: 1024px) {
+  .img-respon {
+    width: 500px;
+  }
+}
+
+/* ------------------------respon of book--- */
+@media screen and (max-width: 992px) {
+  #carouselExampleIndicators {
+    display: none;
+  }
+
+  .caro-book {
+    display: flex;
+    margin-left: -160px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+  }
+
+  .book-service {
+    width: 100%;
+  }
+
+  .table-1 {
+    margin-left: -140px;
+    width: auto;
+
+  }
+
+  .table-2-3 {
+    margin-left: -150px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .table-2 {
+    width: auto;
+
+  }
+
+  .table-3 {
+    width: auto;
+    margin-left: -20px;
+  }
+}
+
+/* ---------------- respon of index-- */
+@media screen and (max-width: 992px) {
+  .petspa .row .row-top-petspa {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .row .row-top-left-petspa {
+    width: 100%;
+  }
+
+  .img1-spa-gromming {
+    width: 100%;
+    height: 100%;
+    margin-left: 19px;
+  }
+
+
+  #border {
+    width: 100%;
+    margin-left: 0.9px;
+  }
+
+  .row-bottom-petspa {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .img2-spa-gromming {
+    width: 100%;
+    height: 100%;
+    margin-left: 85px;
+  }
+
+  .row-bottom-right-petspa {
+    width: 100%;
+    padding: 10px;
+  }
 }
